@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0b0c">
+    <meta
+      name="description"
+      content="陳孟潔編劇作品集網站草案，收錄戲劇作品、劇照、時間軸與影音來源。"
+    >
+    <title>陳孟潔 | 編劇作品集</title>
+    <link rel="preconnect" href="https://d3ap9nkz0i4ta2.cloudfront.net">
+    <link rel="preconnect" href="https://storage.googleapis.com">
+    <link rel="preconnect" href="https://img.youtube.com">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+
+    <header class="site-header" aria-label="主導覽">
+      <a class="brand" href="#top" aria-label="回到首頁">
+        <span class="brand-mark">CM</span>
+        <span>
+          <span data-i18n="brandName">陳孟潔</span>
+          <small data-i18n="brandRole">編劇作品集</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="頁面區塊">
+        <a href="#works" data-i18n="navWorks">作品</a>
+        <a href="#gallery" data-i18n="navGallery">劇照</a>
+        <a href="#timeline" data-i18n="navTimeline">時間軸</a>
+        <a href="#press" data-i18n="navPress">來源</a>
+      </nav>
+
+      <button class="language-toggle" type="button" aria-label="Switch language" data-language-toggle>
+        EN
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="首頁">
+        <div class="hero-media" data-hero-stage>
+          <img src="" alt="" data-hero-image>
+          <div class="hero-grain" aria-hidden="true"></div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Screenwriter Portfolio / Taiwan Drama</p>
+          <h1 data-i18n="heroTitle">在情感裂縫裡，寫出人物真正的選擇。</h1>
+          <p class="hero-lede" data-i18n="heroLede">
+            一個以電影感、文學性與戲劇張力為核心的編劇作品集草案。視覺方向靠近 A24 的冷冽質地與 Netflix 的高辨識劇集包裝。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button primary" href="#works" data-i18n="heroPrimary">查看作品</a>
+            <a class="button ghost" href="#gallery" data-i18n="heroSecondary">瀏覽劇照</a>
+          </div>
+        </div>
+
+        <div class="hero-strip" aria-label="劇照輪播">
+          <button class="icon-button" type="button" data-slide-prev aria-label="上一張">‹</button>
+          <div>
+            <p data-hero-title>願望</p>
+            <span data-hero-meta>Sanlih / 2024</span>
+          </div>
+          <button class="icon-button" type="button" data-slide-next aria-label="下一張">›</button>
+        </div>
+      </section>
+
+      <section class="section intro-band" aria-label="定位">
+        <p data-i18n="positioning">
+          這個版本先保留作者個人敘述，改以作品、影像與可驗證來源建立專業感。後續可再加入正式 biography、導演語氣版簡介、製作公司提案版簡介。
+        </p>
+      </section>
+
+      <section class="section works-section" id="works">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="worksEyebrow">Selected Works</p>
+          <h2 data-i18n="worksTitle">作品與可延伸頁面</h2>
+        </div>
+        <div class="work-grid" data-work-grid></div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="galleryEyebrow">Scene Gallery</p>
+          <h2 data-i18n="galleryTitle">公開來源劇照牆</h2>
+        </div>
+        <div class="gallery-grid" data-gallery-grid></div>
+      </section>
+
+      <section class="section character-section" aria-label="角色卡">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="charactersEyebrow">Character Cards</p>
+          <h2 data-i18n="charactersTitle">角色能量樣本</h2>
+        </div>
+        <div class="character-rail" data-character-rail></div>
+      </section>
+
+      <section class="section timeline-section" id="timeline">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="timelineEyebrow">Timeline</p>
+          <h2 data-i18n="timelineTitle">作品時間軸</h2>
+        </div>
+        <ol class="timeline" data-timeline></ol>
+      </section>
+
+      <section class="section media-section" aria-label="影音">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="videoEyebrow">Video References</p>
+          <h2 data-i18n="videoTitle">影音入口</h2>
+        </div>
+        <div class="video-grid" data-video-grid></div>
+      </section>
+
+      <section class="section press-section" id="press">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="pressEyebrow">Sources</p>
+          <h2 data-i18n="pressTitle">新聞與官方來源</h2>
+        </div>
+        <div class="press-list" data-press-list></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerNote">作品集網站草案。照片與影音目前以公開官方/媒體來源外連呈現，正式上線前應確認授權與姓名職稱。</p>
+      <a href="#top" data-i18n="backTop">回到上方</a>
+    </footer>
+
+    <script src="data/site-content.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
