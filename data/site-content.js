@@ -15,8 +15,8 @@ window.SITE_CONTENT = {
     heroPrimary: { zh: "查看作品", en: "View works" },
     heroSecondary: { zh: "瀏覽劇照", en: "Browse stills" },
     positioning: {
-      zh: "這個版本先保留作者個人敘述，改以作品、影像與可驗證來源建立專業感。後續可再加入正式 biography、導演語氣版簡介、製作公司提案版簡介。",
-      en: "This first version keeps the personal biography private and leads with works, images, and verified sources. A formal biography, director-facing profile, and producer-facing pitch can be added later."
+      zh: "編劇陳孟潔，創作定位偏向現代意識流與心理深度挖掘，作品強調人物內心世界的複雜性與多層次情感張力，常以孤獨、存在焦慮與生命脆弱作為核心議題。風格上，追求冷靜且帶有哲學思辨的語言，擅長用隱喻和象徵手法營造出濃厚的戲劇張力與沉鬱氛圍。作品不僅關注個體的情感掙扎，也映照出時代變遷帶來的集體焦慮。在現代社會的背景下探討真實與虛幻、人際疏離與情感交織。",
+      en: "Screenwriter Mengjie Chen works toward a modern stream-of-consciousness sensibility and psychological depth, emphasizing complex inner worlds and layered emotional tension. Her writing often turns toward solitude, existential anxiety, and the fragility of life, using restrained, philosophical language, metaphor, and symbolism to create dramatic pressure and a somber atmosphere. Her work follows individual emotional struggle while reflecting the collective anxiety of a changing era, exploring truth and illusion, social alienation, and intertwined feeling within contemporary life."
     },
     worksEyebrow: { zh: "Selected Works", en: "Selected Works" },
     worksTitle: { zh: "作品與可延伸頁面", en: "Works and expandable case pages" },
